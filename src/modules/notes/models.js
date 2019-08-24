@@ -3,10 +3,6 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const noteSchema = new Schema({
-  user: {
-    type: String,
-    trim: true,
-  },
   title: {
     type: String,
     trim: true,
